@@ -17,5 +17,5 @@ contract MintBasicNft is Script {
         vm.startBroadcast();
         BasicNft(contractAddress).mintNft(OBJECT_PERMANENCE);
         vm.stopBroadcast();
-    }
+    } 
 }
