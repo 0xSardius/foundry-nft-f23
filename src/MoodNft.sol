@@ -10,8 +10,8 @@ contract MoodNft is ERC721 {
     error MoodNft__CantFlipMoodIfNotOwner();
 
     uint256 private s_tokenCounter;
-    string private s_sadSvgImageUri;
-    string private s_happySvgImageUri;
+    string internal s_sadSvgImageUri;
+    string internal s_happySvgImageUri;
 
     enum Mood {
         HAPPY,
